@@ -115,15 +115,15 @@ a {
   color: $White;
 }
 
-@keyframes slidein {
-  from {
-    transform: translateX(50%);
-    transform: translateY(-50%);
+ @keyframes slidein {
+   from {
+    //  transform: translateX(50%);
+     transform: translateY(-50%);
     
-  }
+   }
 
-  to {
-    transform: translateX(100%);
-    transform: translateY(-100%);
-  }
-}
+   to {
+    //  transform: translateX(100%);
+     transform: translateY(-100%);
+   }
+ }
