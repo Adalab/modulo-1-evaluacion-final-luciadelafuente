@@ -16,6 +16,7 @@
             grid-column: 1/4;
             grid-row: 1/2;
          }
+
         &--maintitle{
             font-family: $FontFamilyTitles;
             font-size: 24px;
@@ -79,12 +80,14 @@
            
         }
     }
+
     &__section3{
         @media (min-width:768px){
             grid-column: 1/4;
             grid-row: 3/4;
          }
     }
+
     &__button{
         width: 184px;
         height: 45px;
@@ -99,13 +102,16 @@
         text-align: center;
         border: solid $White;
         transition: all 4s;
+
         &:hover{
             background-color:$DarkBlue;
             color:$Naranja;
            }
+
         @media (min-width:768px){
             width: 210px;
          }
+         
          @media (min-width:1280px){
             width: 255px;
          } 
